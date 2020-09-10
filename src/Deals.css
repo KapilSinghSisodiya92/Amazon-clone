@@ -1,0 +1,41 @@
+.deals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 400px;
+  min-width: 100px;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  z-index: 1;
+}
+
+.deal__title {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.deal__title > h3 {
+  margin-right: 10px;
+}
+
+.deal__title > a {
+  text-decoration: none;
+  color: #0066c0;
+}
+
+.deal__data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.deal__data_card {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.deal__data_card::-webkit-scrollbar {
+  display: none;
+}

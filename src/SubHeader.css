@@ -1,0 +1,71 @@
+.subHeader__left__option {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.subHeader__left:hover {
+  border: 1px solid;
+}
+
+.subHeader__left__optionLineOne {
+  font-size: 10px;
+}
+
+.subHeader__left__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.subHeader__left {
+  display: flex;
+  align-items: center;
+}
+
+.subHeader {
+  background-image: none;
+  background-color: #232f3e;
+  height: 45px;
+  padding-top: 0;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subHeader__center {
+  display: flex;
+  overflow-x: scroll;
+  overflow: hidden;
+}
+
+.subHeader__center::-webkit-scrollbar {
+  display: none;
+}
+
+.subHeader__center > a {
+  padding: 7px 8px 7px 8px;
+  margin: 1px 4px 6px 1px;
+  color: #ccc;
+  text-decoration: none;
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+.subHeader__center > a:hover {
+  border: 1px solid;
+}
+
+.subHeader__right > img {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  border: none;
+  text-align: right;
+  background-size: inherit;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.subHeader__right > img:hover {
+  border: 1px solid lightgray;
+}

@@ -1,0 +1,36 @@
+.top {
+  background-color: #38445b;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.top a {
+  color: white;
+  text-decoration: none;
+}
+.footer_inside {
+  width: 100%;
+  display: flex;
+  padding-top: 1.5%;
+  padding-bottom: 2.5%;
+  background-color: #242d3f;
+}
+.footer_inside img {
+  margin-left: 30%;
+}
+.footer_inside button {
+  background-color: transparent;
+  border: 1px solid #6d7176;
+  padding: 6px 19px 9px 19px;
+  margin-left: 3%;
+  border-radius: 5px;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

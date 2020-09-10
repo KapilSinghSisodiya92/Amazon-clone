@@ -2,6 +2,7 @@ import React from "react";
 import "./Product.css";
 import { useStateValue } from "./StateProvider";
 import { actionTypes } from "./reducer";
+import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
 
 function Product({ id, title, price, rating, image }) {
   const [{ basket }, dispath] = useStateValue();
@@ -37,7 +38,10 @@ function Product({ id, title, price, rating, image }) {
         </div>
       </div>
       <img src={image} alt="" />
-      <button onClick={addToBasket}>Add to Basket</button>
+      <div className="product__footer">
+        <AddShoppingCartIcon className="product__footer__icon" />
+        <button onClick={addToBasket}>Add to Basket</button>
+      </div>
     </div>
   );
 }

@@ -32,8 +32,39 @@
   margin-bottom: 15px;
 }
 
-.product > button {
+.product__footer > button {
+  width: 50%;
+  height: 30px;
+  color: #111;
   background-color: #f0c14b;
   border: 1px solid;
+  border-radius: 3px;
   border-color: #a88734 #9c7e31 #846a29;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  cursor: pointer;
+  transition: transform ease-in 0.1s;
+}
+
+.product__footer > button:hover {
+  background: linear-gradient(to bottom, #f7dfa5, #d6ab3d);
+}
+
+.product__footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.product__footer__icon {
+  position: absolute;
+  left: 25%;
+  color: white;
+  background-color: black;
+  margin: 3px;
+  font-size: 25px;
+  user-select: none;
+  border-radius: 3px;
 }

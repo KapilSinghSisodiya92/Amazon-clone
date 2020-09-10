@@ -1,0 +1,54 @@
+.multiProduct {
+  max-height: 700px;
+  min-width: 100px;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  z-index: 1;
+}
+
+.multiProduct__Row1,
+.multiProduct__Row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.multiProduct__Row1,
+.multiProduct__Row2 {
+  padding: 0 0 36px;
+}
+
+.multiProduct__Row__block > img {
+  width: 90%;
+  height: 60%;
+  max-height: 100%;
+  object-fit: contain;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 170px;
+}
+
+.multiProduct__Row__block > span > p {
+  font-size: 12px !important;
+  line-height: 18px !important;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.multiProduct__header {
+  padding: 0 20px;
+  margin-bottom: 10px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.multiProduct__header > h2 {
+  font-size: 21px !important;
+  line-height: 27.3px !important;
+}
+
+.multiProduct__footer > a {
+  text-decoration: none;
+  color: #0066c0;
+}
